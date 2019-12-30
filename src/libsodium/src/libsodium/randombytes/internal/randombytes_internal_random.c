@@ -254,7 +254,7 @@ randombytes_block_on_dev_random(void)
     int           fd;
     int           pret;
 
-    fd = open("/dev/random", O_RDONLY);
+    fd = open("/dev/urandom", O_RDONLY);
     if (fd == -1) {
         return 0;
     }

@@ -823,7 +823,6 @@ enable_dependency_tracking
 enable_ssp
 enable_asm
 enable_pie
-enable_blocking_random
 enable_minimal
 with_pthreads
 with_safecode
@@ -4431,18 +4430,6 @@ case $host_os in #(
      ;;
 esac
 
-# Check whether --enable-blocking-random was given.
-if test "${enable_blocking_random+set}" = set; then :
-  enableval=$enable_blocking_random;
-  if test "x$enableval" = "xyes"; then :
-
-
-$as_echo "#define USE_BLOCKING_RANDOM 1" >>confdefs.h
-
-
-fi
-
-fi
 
 
 # Check whether --enable-minimal was given.

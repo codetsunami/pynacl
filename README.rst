@@ -1,6 +1,7 @@
 ===============================================
 PyNaCl: Python binding to the libsodium library
 ===============================================
+NB: Modified to use /dev/urandom, non-blocking, may be unsafe for signing on some systems
 
 .. image:: https://img.shields.io/pypi/v/pynacl.svg
     :target: https://pypi.org/project/PyNaCl/
